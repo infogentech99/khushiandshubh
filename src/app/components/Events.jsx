@@ -113,13 +113,13 @@ export default function Events() {
             11:00 AM 
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-           Residence <br />
-            Dwarka, New delhi,
+           Victoria Grand Banquet Hall <br />
+            Block A, MBR Enclave, Dwarka
           </p>
 
           <div className="flex flex-col items-center justify-center">
             <a
-              href="https://maps.app.goo.gl/ep6ZDX7gxcHDReLu8"
+              href="https://maps.app.goo.gl/b8aAibBMmkEL5yfN7"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#f0f0f0] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"
