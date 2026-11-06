@@ -1,48 +1,38 @@
 "use client";
 import Link from "next/link";
 import { SquarePen } from "lucide-react";
-import RSVPForm from "../components/RSVPForm";
 export default function Families() {
   return (
     <>
-      <section className="w-full overflow-x-clip bg-[url('/assets/family_bg.webp')] bg-cover bg-no-repeat py-20 pt-40 md:pt-60 lg:pt-120 px-12 lg:h-350">
+      <section className="w-full overflow-x-clip bg-[url('/assets/hero_bg.webp')] bg-cover bg-no-repeat py-20 pt-10 md:pt-60 lg:pt-120 px-12 lg:h-350">
       
       
-        <p className="text-center text-[16px] uppercase tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
-          With Love
-        </p>
+        
         <h2 className="mt-4 text-center text-[40px] leading-tight text-[#8c1034] font-cormorant-upright font-semibold  md:text-4xl lg:text-[60px]">
-          The Families
+          RSVP
         </h2>
+<p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
+          Name 1 <br/>
+          Name 2
+        </p>
+        <div className="flex flex-col justify-center items-center mt-8">
+            <a
+            href="https://www.instagram.com/theinvitearc/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" flex items-center gap-3 font-serif text-[16px] text-[#546F2F]"
+          >
+            <img
+              src="/assets/instagram.png"
+              alt="Instagram"
+              className="object-contain h-4 w-5"
+            />
 
-        <div className="w-full flex justify-center mt-8">
-          <div className="w-full max-w-[420px] aspect-[247/178] bg-[url('/assets/frame.webp')] bg-no-repeat bg-center bg-contain flex flex-col items-center justify-center">
-            <p className="text-center text-[12px] uppercase tracking-[0.15em] text-[#C99333] font-cormorant-garamond">
-              Groom's Family
-            </p>
-
-            <h2 className="mt-2 text-center text-[28px] leading-none text-[#8c1034] font-cormorant-upright font-semibold  md:text-[38px]">
-              Gandhi Family
-            </h2>
-          </div>
-        </div>
-
-        <div className="w-full flex justify-center my-3">
-          <div className="w-full max-w-[420px] aspect-[247/178] bg-[url('/assets/frame.webp')] bg-no-repeat bg-center bg-contain flex flex-col items-center justify-center">
-            <p className="text-center text-[12px] uppercase tracking-[0.15em] text-[#C99333] font-cormorant-garamond">
-              Bride's Family
-            </p>
-
-            <h2 className="mt-2 text-center text-[28px] leading-none text-[#8c1034] font-cormorant-upright font-semibold  md:text-[38px]">
-              Narang Family
-            </h2>
-          </div>
+            <span>Follow us on Instagram</span>
+          </a>
         </div>
       </section>
-      <section className="w-full overflow-x-clip bg-[#FCF4EB] bg-cover bg-no-repeat py-20 pt-14 md:pt-60 lg:pt-20 px-4 lg:h-150">
       
-    <RSVPForm/>
-      </section>
     </>
   );
 }

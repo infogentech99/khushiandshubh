@@ -55,23 +55,23 @@ export default function Events() {
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 md:mt-0 md:my-6 mb-6">
           
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold text-[34px] md:text-5xl lg:text-[70px]">
-            Sagan/ Ring Ceremony
+           Engagement
           </h2>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            22 November 2026 · Sunday
+            1 December 2026 · Tuesday
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            8:00 PM
+           7:00 PM
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[14px] md:text-base lg:text-[25px] text-center">
-            UDMAN LUXE <br />
-            (FORMERLY OPPULENT RESORTS) <br />
-            F5CP+JF4, 98, Bandh Rd, Chhatarpur, Delhi
+            Club RedX by Kawatra’s <br />
+            
+            opp. SDM OFFICE, Shivaji Place, Vishal Enclave,<br/> Rajouri Garden, New Delhi, Delhi, 110027
           </p>
 
           <div className="flex flex-col items-center justify-center">
             <a
-              href="https://maps.app.goo.gl/9W7RC7XVJYFha8pv9"
+              href="https://maps.app.goo.gl/VC2PCMy7vEr6f19q6"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#e8e9eb] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"
@@ -90,47 +90,8 @@ export default function Events() {
         </Reveal>
       </div>
 
-      {/* Cocktail event */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/cocktail_bg.webp')] bg-cover bg-no-repeat">
-        <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 md:mt-20 mt-16">
-        
-          <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px]">
-            After Party
-          </h2>
-          <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            22 November 2026 · Sunday
-          </p>
-          <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            9:00 PM
-          </p>
-          <p className="text-[#5e3d22] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            UDMAN LUXE <br />
-            (FORMERLY OPPULENT RESORTS) <br />
-            F5CP+JF4, 98, Bandh Rd, Chhatarpur, Delhi
-          </p>
 
-          <div className="flex flex-col items-center justify-center">
-            <a
-              href="https://maps.app.goo.gl/9W7RC7XVJYFha8pv9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#f0f0f0] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"
-            >
-              Get Direction
-            </a>
-          </div>
-        </div>
-
-      <Reveal from="bottom" className="w-full md:relative md:left-1/2 md:-translate-x-1/2 md:w-screen">
-  <img
-    src="/assets/cocktail_bottom.webp"
-    alt="Wedding Logo"
-    className="block w-full h-auto"
-  />
-</Reveal>
-      </div>
-
-      {/* haldi event */}
+{/* haldi event */}
       <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/haldi_bg.webp')] bg-cover bg-no-repeat">
         <Reveal from="top" className="w-full">
           <img
@@ -146,20 +107,19 @@ export default function Events() {
             Haldi
           </h2>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            23 November 2026 · Monday
+            2 December 2026 · Wednesday
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base text-center lg:text-[25px]">
             11:00 AM 
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            UDMAN LUXE <br />
-            (FORMERLY OPPULENT RESORTS) <br />
-            F5CP+JF4, 98, Bandh Rd, Chhatarpur, Delhi
+           Residence <br />
+            Dwarka, New delhi,
           </p>
 
           <div className="flex flex-col items-center justify-center">
             <a
-              href="https://maps.app.goo.gl/9W7RC7XVJYFha8pv9"
+              href="https://maps.app.goo.gl/ep6ZDX7gxcHDReLu8"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#f0f0f0] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"
@@ -186,36 +146,28 @@ export default function Events() {
         </Reveal>
       </div>
 
-      {/* Jaggo event */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/jaggo_bg.webp')] bg-cover bg-no-repeat">
-        <Reveal from="top" className="w-full">
-          <img
-            src="/assets/jaggo_top.webp"
-            alt="Wedding Logo"
-            className="w-full"
-          />
-        </Reveal>
 
-        <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20 my-16">
-          
-          <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px] text-center">
-            Jaggo/Dhol Night
+      {/* Cocktail event */}
+      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/cocktail_bg.webp')] bg-cover bg-no-repeat">
+        <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 md:mt-20 mt-16">
+        
+          <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px]">
+            Mehndi & cocktail
           </h2>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            23 November 2026 · Monday
+            3 December 2026 · Thursday
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            8:00 PM
+            7:00 PM
           </p>
           <p className="text-[#5e3d22] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            UDMAN LUXE <br />
-            (FORMERLY OPPULENT RESORTS) <br />
-            F5CP+JF4, 98, Bandh Rd, Chhatarpur, Delhi
+            Veda Farms and Banquets <br />
+            54, Main Rd, Kapas Hera Extension, <br/> Kapas Hera, New Delhi, Delhi, 110061
           </p>
 
           <div className="flex flex-col items-center justify-center">
             <a
-              href="https://maps.app.goo.gl/9W7RC7XVJYFha8pv9"
+              href="https://maps.app.goo.gl/X5PA9ojK2g9pRNMU7"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#f0f0f0] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"
@@ -225,14 +177,17 @@ export default function Events() {
           </div>
         </div>
 
-        <Reveal from="bottom" className="w-full md:relative md:left-1/2 md:-translate-x-1/2 md:w-screen">
-          <img
-            src="/assets/jaggo_bottom.webp"
-            alt="Wedding Logo"
-            className="block w-full h-auto"
-          />
-        </Reveal>
+      <Reveal from="bottom" className="w-full md:relative md:left-1/2 md:-translate-x-1/2 md:w-screen">
+  <img
+    src="/assets/cocktail_bottom.webp"
+    alt="Wedding Logo"
+    className="block w-full h-auto"
+  />
+</Reveal>
       </div>
+
+      
+
 
 
  {/* Baarat event */}
@@ -242,23 +197,24 @@ export default function Events() {
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 md:mt-20 mb-10 mt-16">
           
           <h2 className="text-white font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px] text-center">
-            Assembly of Baraat 
+            Wedding
           </h2>
           <p className="text-[#fff] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            24 November 2026 · Tuesday
+            5 December 2026 · Saturday
           </p>
-          <p className="text-[#fff] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            10:30 AM
+          <p className="text-[#fff] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px] text-center">
+           Reception of baraat - 8pm <br/>
+           Dinner - 9pm  <br/>
+Doli - Taaro ki Chaaon mein
           </p>
           <p className="text-[#fff] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            Hotel Riverb near<br />
-            
-            The Tivoli Chattarpur
+            The Medallion by Kawatra’s<br />
+            Golden Paris Kawatra Tent, Shivaji Enclave, <br/> Raja Garden, Delhi, 110027
           </p>
 
           <div className="flex flex-col items-center justify-center">
             <a
-              href="https://maps.app.goo.gl/n2wuAmcjvV9xHW4g7"
+              href="https://maps.app.goo.gl/F4SAdgH65tPGREAKA"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#f0f0f0] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"
@@ -279,53 +235,7 @@ export default function Events() {
 
 
 
-      {/* anand karaj */}
-      <div className="flex scroll-mt-6 flex-col justify-center items-center bg-[url('/assets/akhand_bg.webp')] bg-cover bg-no-repeat">
-        <Reveal from="top" className="w-full">
-          <img
-            src="/assets/anand_top.webp"
-            alt="Wedding Logo"
-            className="w-full"
-          />
-        </Reveal>
-
-        <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20 mb-16">
-       
-          <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[44px] md:text-5xl lg:text-[70px]">
-            Anand Karaj
-          </h2>
-          <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            24 November 2026 · Tuesday
-          </p>
-          <p className="text-[#5e3d22] font-cormorant-garamond text-[15px] md:text-base lg:text-[25px]">
-            11:30 AM
-          </p>
-          <p className="text-[#5e3d22] font-cormorant-garamond text-[14px] md:text-base text-center lg:text-[25px]">
-            OYSTER GREENS<br />
-            THE TIVOLI<br />
-            Chhatarpur, Delhi
-          </p>
-
-          <div className="flex flex-col items-center justify-center">
-            <a
-              href="https://maps.app.goo.gl/bSo9aZ9DE2t9z6ah9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 w-36 rounded-full border border-[#8c1034] bg-[#f0f0f0] px-2 py-1.5 lg:px-16 lg:py-2.5 md:px-16 md:py-2.5 text-[12px] md:text-[17px] text-center font-cormorant-garamond  tracking-widest text-[#8c1034] transition-all duration-300 hover:bg-[#8c1034] hover:text-white md:w-auto md:text-4xl lg:text-[20px]"
-            >
-              Get Direction
-            </a>
-          </div>
-        </div>
-
-        <Reveal from="bottom" className="w-full md:relative md:left-1/2 md:-translate-x-1/2 md:w-screen">
-          <img
-            src="/assets/anand_bottom.webp"
-            alt="Wedding Logo"
-            className="w-full"
-          />
-        </Reveal>
-      </div>
+      
     </>
   );
 }

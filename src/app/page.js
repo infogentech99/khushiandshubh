@@ -9,7 +9,7 @@ import Families from "./components/Families";
 import RoseHeroTemp from "./components/RoseHeroTemp";
 import IntroVideo from "./components/IntroVideo";
 export default function Home() {
- const audioRef = useRef(null);
+  const audioRef = useRef(null);
   const [started, setStarted] = useState(false);
   const [playing, setPlaying] = useState(false);
 
@@ -59,67 +59,119 @@ export default function Home() {
         onClick={() => {
           started ? toggleMusic() : startMusic();
         }}
-        className="fixed bottom-4 right-4 z-50 bg-[#FF35A1] text-white p-3 rounded-xl text-xl"
+        className="fixed bottom-4 right-4 z-50 bg-[#C9850B] text-white px-3 py-2 rounded-xl text-xl"
       >
         {playing ? "⏸" : "▶"}
       </button>
 
       <audio
         ref={audioRef}
-        src="/assets/akshay.mp3"
+        src="/assets/khushi.mp3"
         loop
         preload="auto"
         playsInline
       />
- <IntroVideo />
+      <IntroVideo />
       <div className="relative w-full overflow-hidden">
-         <div className="pointer-events-none fixed inset-0 z-20 h-screen w-screen">
-    <RoseHeroTemp />
-  </div>
+        <div className="pointer-events-none fixed inset-0 z-20 h-screen w-screen">
+          <RoseHeroTemp />
+        </div>
+
         <video
-          src="/assets/golden.mp4"
+          src="/assets/hero2_video.mp4"
           autoPlay
           loop
           muted
           playsInline
-          className="block w-full h-[950px] md:h-auto lg:h-auto object-cover"
+          className="block w-full h-[650px] md:h-auto lg:h-auto object-cover"
         />
 
-        <div className="absolute inset-x-0 top-20 md:top-20 lg:top-150 flex flex-col items-center text-center px-2">
-          <p className="text-[#C99333] font-semibold tracking-widest text-[12px] md:text-[14px]">
-            ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ॥
-            <br />
-            ਨਾਨਕ ਸਤਿਗੁਰ ਤਿਨ ਮਿਲਾਇਆ ਜਿਨਾਂ ਧੁਰੇ ਪਾਇਆ ਸੰਜੋਗ॥
-          </p>
+        <div className="absolute inset-x-0 top-10 md:top-20 lg:top-80 flex flex-col items-center text-center px-2">
+          <h2 className="relative z-10 flex flex-col items-center text-[#C9850B] text-[44px] md:text-6xl lg:text-[90px] font-bold">
+            <span className="font-great-vibes">Khushi</span>
 
-          <p className="text-[#634B00] tracking-wider text-[12px] md:text-[14px] mt-4 font-noto-serif">
-            With the blessings of the Waheguru Ji
-          </p>
-
-          <h2 className=" flex flex-col items-center text-[#8c1034] text-[17px] md:text-2xl lg:text-[50px]">
-            <span className="font-noto-serif">
-            Mrs. Mohinder Kaur Gandhi & Late Surinder Singh Gandhi 
-            </span>
-          </h2>
-
-          <p className="text-[#634B00] tracking-wider text-[12px] md:text-[14px] mt-4 font-noto-serif w-90">
-            cordially invite you to grace the Anand Karaj of their beloved
-            Grandson
-          </p>
-          <h2 className=" flex flex-col items-center text-[#C99333] text-3xl md:text-4xl lg:text-[70px] mt-3 font-bold">
-            <span className="font-noto-serif">Akshay Gandhi <br/></span>
-<span className="font-noto-serif text-[17px]">(S/O Mrs. Anju Gandhi)</span>
-            <span className="font-noto-serif text-base md:text-2xl lg:text-[38px] text-[#634B00]">
+            <span className="font-great-vibes text-2xl md:text-2xl lg:text-[48px] text-[#C9850B] md:py-8">
               &
             </span>
 
-            <span className="font-noto-serif">Vyakhya Narang</span>
-            <span className="font-noto-serif text-[17px]">(D/O Mrs. Shikha & Mr. Gaurav Narang)</span>
+            <span className="font-great-vibes">Shubh</span>
           </h2>
-          <p className="text-[#634B00] tracking-wider text-[12px] md:text-[14px] mt-4 font-noto-serif w-90">
-            with your esteemed presence and blessings
-          </p>
         </div>
+
+        <div className="relative w-full h-[850px] md:h-[950px] lg:h-[1200px] bg-[url('/assets/hero_bg.webp')] bg-no-repeat bg-center bg-cover flex flex-col justify-start text-center items-center pt-20 md:pt-24 overflow-hidden">
+          <img
+            src="/assets/sun.png"
+            alt=""
+            className="absolute top-0 left-0 w-24 md:w-36 object-contain z-10"
+          />
+
+          <img
+            src="/assets/flower_hero2.png"
+            alt=""
+            className="absolute md:top-30 top-22 left-0 w-24 md:w-36 object-contain z-10"
+          />
+
+          <img
+            src="/assets/hero_top_flower.png"
+            alt=""
+            className="absolute top-0 right-0 w-24 md:w-36 object-contain z-10"
+          />
+
+          <img
+            src="/assets/ganesha.png"
+            alt="Wedding Logo"
+            className="md:w-22 w-18 relative z-10 mt-14"
+          />
+
+          <p className="relative z-10 text-[#C99333] font-semibold tracking-widest text-[12px] md:text-[14px] mt-5 px-2">
+            ||॥ श्री गणेशाय नमः ॥||
+            <br />
+            मंगलम् भगवान् विष्णु मंगलम् गरुणध्वजः मंगलम् पुण्डरीकाक्षः मंगलाय
+            तनोहरि
+          </p>
+          <img
+            src="/assets/underline.png"
+            alt="Wedding Logo"
+            className="w-36 py-3"
+          />
+
+          <p className="relative z-10 text-[#546F2F] tracking-wider text-[14px] md:text-[20px] mt-4 font-cormorant-garamond  font-semibold">
+            With the heavenly blessings of
+            <br />
+            Late Sh. Ashok Kumar Verma & Late Smt. Rani Devi Verma
+          </p>
+
+          <h2 className="relative z-10 flex flex-col items-center text-[#C14405] text-5xl md:text-4xl lg:text-[90px] mt-12 font-semibold">
+            <span className="font-great-vibes">Khushi</span>
+
+            <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
+              (D/o Mrs. Manju verma & Mr. Pankaj verma)
+            </p>
+
+            <span className="font-great-vibes text-3xl md:text-2xl lg:text-[48px] text-[#C14405] md:py-10 py-6">
+              With
+            </span>
+
+            <span className="font-great-vibes">Shubh</span>
+
+            <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
+              (S/o Mrs. Anuradha Verma & Praveen Verma)
+            </p>
+          </h2>
+
+          <img
+            src="/assets/temple.webp"
+            alt=""
+            className="absolute bottom-0 left-0 w-[48%] md:w-[40%] object-bottom z-10"
+          />
+
+          <img
+            src="/assets/hero_flower.png"
+            alt=""
+            className="absolute bottom-0 right-0 w-[25%] md:w-[15%]  object-bottom z-10 "
+          />
+        </div>
+
         <Details />
         <Forever />
         <Events />

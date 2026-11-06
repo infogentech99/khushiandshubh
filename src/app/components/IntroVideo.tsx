@@ -1,24 +1,13 @@
-
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function IntroVideo() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  const [loading, setLoading] = useState(true);
   const [started, setStarted] = useState(false);
   const [hide, setHide] = useState(false);
   const [show, setShow] = useState(true);
-
-  // Show loading image for 1 second
-  useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
-    return () => window.clearTimeout(timer);
-  }, []);
 
   // Lock page scroll while intro is visible
   useEffect(() => {
@@ -81,21 +70,8 @@ export default function IntroVideo() {
         backgroundColor: "#faf4e8",
       }}
     >
-      {/* First image: visible for 1 second */}
-      {loading && (
-        <div
-          className="absolute inset-0 z-30"
-          style={{
-            backgroundImage: "url('/assets/first-poster.webp')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
-      )}
-
-      {/* Poster image: shown after 1 second */}
-      {!loading && !started && (
+      {/* Poster Image */}
+      {!started && (
         <button
           type="button"
           onClick={playVideo}
@@ -108,13 +84,13 @@ export default function IntroVideo() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <span className="absolute left-1/2 top-[35%] -translate-x-1/2 -translate-y-1/2 text-center text-4xl font-semibold text-white md:text-4xl font-cormorant-upright">
-   Tap to Reveal
-  </span>
-</button>
+          <span className="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2 text-center text-4xl font-semibold text-[#C99333] md:text-4xl font-cormorant-upright">
+            Tap to Reveal
+          </span>
+        </button>
       )}
 
-      {/* Intro video */}
+      {/* Intro Video */}
       <video
         ref={videoRef}
         playsInline

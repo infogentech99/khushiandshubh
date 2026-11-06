@@ -325,10 +325,10 @@ export default function ScratchText({ onReveal }) {
         padding: "0 25px",
       }}
     >
-      <div className="text-[#8c1034]">
+      <div className="text-[#C9850B]">
         <div>
-          24<sup className="text-[15px]">th </sup>
-        November</div>
+          5<sup className="text-[15px]">th </sup>
+        December</div>
         <div>2026</div>
       </div>
     </div>
