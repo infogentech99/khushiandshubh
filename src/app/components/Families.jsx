@@ -9,7 +9,12 @@ export default function Families() {
           RSVP
         </h2>
         <p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
-          Verma Family and A special tail Wagging From Chaw Chaw
+          Verma Family <br/><br/>  "A Special Tail Wagging From"
+          <div className="flex flex-col justify-center items-center mt-6"> <img
+              src="/assets/dog.webp"
+              alt="Instagram"
+              className="object-contain h-30"
+            /></div>
         </p>
         <div className="flex flex-col justify-center items-center mt-8">
           <a

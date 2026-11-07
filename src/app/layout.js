@@ -12,12 +12,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://khushiandshubh.vercel.app/"),
+  metadataBase: new URL("https://khushiandshubh2.vercel.app/"),
 
   openGraph: {
     title: "Khushi & Shubh",
     description: "Join as they begin their forever. 1, 2, 3 & 5 December, 2026",
-    url: "https://khushiandshubh.vercel.app/",
+    url: "https://khushiandshubh2.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata = {
   },
 
   other: {
-    "og:image:secure_url": "https://khushiandshubh.vercel.app/og.jpg",
+    "og:image:secure_url": "https://khushiandshubh2.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 };
