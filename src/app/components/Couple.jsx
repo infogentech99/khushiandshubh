@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const images = [
+   "/assets/couple.jpg",
   "/assets/couple_1.jpg",
   "/assets/couple_2.jpg",
   "/assets/couple_3.jpg",
