@@ -9,9 +9,10 @@ export default function Families() {
           RSVP
         </h2>
         <p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
-          Verma Family <br/>and <br/> "A Special Tail Wagging From"
+          Verma Family <br/>9999802090 <br/>
+9999676040<br/><p className="py-2">and</p> "A Special Tail Wagging From"
           <div className="flex flex-col justify-center items-center mt-6"> <img
-              src="/assets/dog.webp"
+              src="/assets/dog_gif.gif"
               alt="Instagram"
               className="object-contain h-30"
             /></div>

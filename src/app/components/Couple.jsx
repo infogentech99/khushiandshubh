@@ -9,7 +9,6 @@ const images = [
   "/assets/couple_3.jpg",
   "/assets/couple_4.jpg",
  
- 
 ];
 
 const STICKY_TOP = 96;
