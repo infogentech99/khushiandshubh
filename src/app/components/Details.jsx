@@ -93,7 +93,7 @@ export default function Details({ from = "bottom", className = "", children }) {
           <span className="font-great-vibes">Shubh</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
-            (S/o Mrs. Anuradha Verma & Praveen Verma)
+            (S/o Mrs. Anuradha Verma & Mr. Praveen Verma)
           </p>
         </h2>
 
